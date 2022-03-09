@@ -2,25 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Shopping list">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
     <title>Shopping List</title>
   </head>
   <body>
-    <div id="myDIV" class="header">
+    <div class="header">
       <h2>Shopping List</h2>
-      <input type="text" id="myInput" placeholder="Title...">
-      <span onclick="newElement()" class="addBtn">Add</span>
+      <input type="text" id="input" placeholder="Title...">
+      <button onclick="addItem()" class="button">Add</button>
+      <span id="span" class="span"></span>
     </div>
     
-    <ul id="myUL">
-      <li>Milk</li>
-      <li class="checked">Bread</li>
-      <li>Coffee</li>
-      <li>Cucumber</li>
-      <li>Cat food</li>
-      <li>Chocolate</li>
+    <ul id="list">
+     
     </ul>
+    <footer>
+      <p>
+        App created by
+        <a href="https://github.com/Vasystus">Hallie</a> for the Founders &
+        Coders 2022 Pre-Course Apprentiship training programme.
+      </p>
+    
+      <p>
+        Open-sourced
+        <a href=""
+          >code available on GitHub</a
+        >.
+      </p>
+    </footer>
     <script src="../test-helpers.js"></script>
     <script src="script.js"></script>
     <script src="index.test.js"></script>
