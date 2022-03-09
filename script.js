@@ -5,10 +5,10 @@ function addItem() {
   const inputValue = document.getElementById("input").value;
 // Create a text node:
   const textnode = document.createTextNode(inputValue);
-  // Append the text node to the "li" node:
+// Append the text node to the "li" node:
   node.appendChild(textnode);
 
-  // Append the "li" node to the list:
+// Append the "li" node to the list:
   document.getElementById("list").appendChild(node);
   // create span and append it to the "li" node:
   const span = document.createElement("SPAN");

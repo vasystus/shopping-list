@@ -25,7 +25,7 @@ ul li {
   font-size: 18px;
   transition: 0.2s;
   
-  /* make the list items unselectable */
+/* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -63,7 +63,7 @@ ul li.checked::before {
   width: 7px;
 }
 
-/* Style the close button */
+/*  Close button */
 .close {
   position: absolute;
   right: 0;
@@ -80,7 +80,7 @@ h2 {
   font-size: 24px;
 }
 .header {
-  
+
   background-image: url("https://media.istockphoto.com/photos/shopping-healthy-food-picture-id1140835153?k=20&m=1140835153&s=612x612&w=0&h=Irf27t1lj4CrZBXcnfm7L00wPxbpSy3KrF-IeQG7uIM=");
   background-blend-mode: lighten;
   padding: 30px 40px;
@@ -95,7 +95,7 @@ h2 {
   clear: both;
 }
 
-/* Style the input */
+/* input */
 input {
   margin: 0;
   border: none;
@@ -106,7 +106,7 @@ input {
   margin-bottom: 12px;
 }
 
-/* Style the "Add" button */
+/* button */
 .button {
   margin: 0;
   padding: 10px;
