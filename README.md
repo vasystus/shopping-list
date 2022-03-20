@@ -6,7 +6,7 @@
  
  This repo contains our Founders and Coders Week 4 project.
  
- The website is live on GitHub pages. You can view it via [this link](https://vasystus.github.io/shopping-list/)!
+ The project is live on GitHub pages. You can view it via [this link](https://vasystus.github.io/shopping-list/)!
  
  ---
  
